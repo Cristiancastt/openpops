@@ -1,0 +1,37 @@
+{
+  "name": "openpops",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "style": "./dist/index.css",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./styles.css": "./dist/index.css"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "openpops",
+    "Context Menu",
+    "Right Click",
+    "Menu",
+    "ContextMenu",
+    "RightClick"
+  ],
+  "author": "Cristiancast",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "description": "A simple and easy to use library to create context menus in your web applications.",
+  "devDependencies": {
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
